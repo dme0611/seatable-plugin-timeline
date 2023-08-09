@@ -14,9 +14,7 @@ class TaskList {
 TaskList.execute();
 
 window.app = window.app ? window.app : {};
-window.app.onClosePlugin = function() {
-
-};
+window.app.onClosePlugin = function() {};
 
 const openBtn = document.getElementById('plugin-controller');
 openBtn.addEventListener('click', function() {

@@ -1,3 +1,4 @@
+
 .dtable-plugin.plugin-timeline {
   display: flex;
   flex-direction: column;
@@ -20,6 +21,7 @@
   border-radius: 12px 12px 0 0;
 }
 
+
 .plugin-timeline .plugin-logo {
   display: flex;
   justify-content: center;
@@ -34,7 +36,11 @@
 }
 
 .plugin-timeline .plugin-header .timeline-operators {
-  margin-left: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1;
 }
 
 .plugin-timeline .plugin-header .timeline-operator,
@@ -44,7 +50,7 @@
   height: 24px;
   color: #000;
   opacity: .5;
-  text-align: center;
+  text-align: right;
   cursor: pointer;
 }
 
