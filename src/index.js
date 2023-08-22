@@ -22,4 +22,3 @@ const openBtn = document.getElementById('plugin-controller');
 openBtn.addEventListener('click', function() {
   TaskList.execute();
 }, false);
-
